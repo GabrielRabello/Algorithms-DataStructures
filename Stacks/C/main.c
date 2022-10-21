@@ -4,8 +4,6 @@
 
 int main(void) 
 {
-    size_t len = 0;
-    char *s = NULL;
     int ch;
     Item item;
     Stack *stack = new_stack();
