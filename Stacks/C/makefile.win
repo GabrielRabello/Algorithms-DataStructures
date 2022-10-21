@@ -1,0 +1,8 @@
+main: main.o pilha.o
+	gcc main.o pilha.o -o main
+
+main.o: main.c pilha.o pilha.h
+	gcc -g -Wall -c main.c
+
+pilha.o: pilha.c pilha.h
+	gcc -g -Wall -c pilha.c
